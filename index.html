@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" charset="UTF-8" ></script>
+</head>
+<body>
+    <h1>2048 GAME</h1>
+    <div class='score-container'>
+        <div class='score-title'>Score</div>
+        <span id='score'>0</span>
+    </div>
+    <div  id='result'> Result</div>
+    <div class="grid"></div>
+    <button class="buttons" onclick="myButton()">NEW GAME</button>  
+    <button class="buttons" onclick="instructions()">Instructions</button>  
+    
+
+    <script>
+        function myButton(){
+        location.reload()
+    }
+
+    function instructions(){
+        alert('Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one. Get 2048 tile to win!')
+    }
+    </script>
+
+</body>
+</html>

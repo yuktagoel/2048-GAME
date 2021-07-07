@@ -1,0 +1,105 @@
+
+
+body{
+    font-family: 'Bowlby One SC', cursive;
+    background-color:#fffdd0;
+
+}
+
+.grid{ 
+    border: 20px solid #906532 ; 
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    padding: auto;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+
+}
+
+.grid div{
+
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 96px;
+    font-size: 50px;
+    text-align: center;
+    font-weight:bold;
+    border: 2px solid #A17C4D ;
+    cursor: pointer;   
+    color:#2e2519;
+    border-radius: 5px;
+    font-size: 35px;
+
+}
+
+
+h1{
+  font-size: 50px;
+  color: #906532;
+  margin:0;
+  padding:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  
+}
+
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:bold;
+    font-size: 25px;
+    background-color: #A17C4D  ; 
+    width:20%;
+    float:right;
+    margin-right: 50px;
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    border: 1px solid grey;
+    border-radius:10px;
+    
+}
+
+.score-container{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    font-weight:bold;
+    font-size: 25px;
+    background-color: #A17C4D ;
+    width:20%;
+    float:left;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+    border: 1px solid grey;
+    border-radius:10px;
+
+}
+
+#score{
+    padding-left: 10px;
+}
+
+.buttons{ text-align: center;
+    margin: auto;
+    display: flex;
+    display:grid;
+    height: 50;
+    background-color: #906532;
+    font-size: 25px;
+    cursor: pointer;
+    padding: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Bowlby One SC', cursive;
+
+}
+
